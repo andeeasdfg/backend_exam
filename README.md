@@ -9,21 +9,21 @@
 
 ## How to Install
 
-1. Clone the repository in your computer
-2. Change .ENV files
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=backend_db
-DB_USERNAME=root
-DB_PASSWORD=
+1. Clone the repository in your computer<br>
+2. Change .ENV files <br>
+DB_CONNECTION=mysql <br>
+DB_HOST=127.0.0.1<br>
+DB_PORT=3306<br>
+DB_DATABASE=backend_db<br>
+DB_USERNAME=root<br>
+DB_PASSWORD=<br>
+<br>
+add your username and password<br>
 
-add your username and password
-
-3. Make sure you have XAMP installed in your computer..
-    - Import backend_db.sql in phpmyadmin databases
+3. Make sure you have XAMP installed in your computer..<br>
+    - Import backend_db.sql in phpmyadmin databases<br>
     
-4. type in the terminal "php artisan serve"
+4. type in the terminal "php artisan serve"<br>
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
