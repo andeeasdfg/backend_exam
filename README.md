@@ -7,6 +7,23 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## How to Install
+
+1. Clone the repository in your computer
+2. Change .ENV files
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=backend_db
+DB_USERNAME=root
+DB_PASSWORD=
+
+add your username and password
+
+3. Make sure you have XAMP installed in your computer..
+    - Import backend_db.sql in phpmyadmin databases
+    
+4. type in the terminal "php artisan serve"
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
